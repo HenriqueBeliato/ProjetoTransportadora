@@ -1,0 +1,77 @@
+/*Global*/
+*{ /*Forçar o a parte web a resetar as informações*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{/*Instalar e importar uma fonte*/
+    font-family:'Montserrat'; /*Tipo de fonte*/
+    src: url('../font/Montserrat-Light.ttf'); /*Puxar a fonte*/
+}
+
+html{
+    font-family: 'Montserrat'; /*Tipo de fonte*/
+    scroll-behavior: smooth; /*Rolagem do scrool da página*/
+}
+
+textarea{ /*Controle de edição para uma caixa de texto*/
+    font-family: 'Montserrat';
+}
+
+h1{
+    font-size: 52px; /*Tamanho da fonte*/
+}
+
+h1{
+    font-size: 32px; /*Tamanho da fonte*/
+}
+
+ul{
+    list-style: none; /*Tirar os marcadores do lado das palavras*/
+}
+
+a{
+    text-decoration: none; /*Tirar o sublinhado das palavras*/
+}
+
+p{
+    font-size: 16px; /*Tamanho da fonte*/
+    line-height: 6vh; /*Espaçamento das linhas de um texto*/
+}
+
+h1,h2{
+    line-height: 10vh; /*Espacamento das linhas de um texto*/
+}
+
+section{ /*Separação de áreas diferentes*/
+    padding-top: 70px; /*Espaçamento superior das bordas*/
+}
+
+iframe{ /*Tag utilizada para mexer em toda a página*/
+    width: 100%; /*Largura de um elemento*/
+    height: 500px; /*Altura de um elemento*/
+    border: 0; /*Contorno de um elemento*/
+}
+
+span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
+    background-color: royalblue; /*Cor da letra ou palavra*/ 
+}
+
+/*Menu Container*/
+
+.menuContainer{
+    width: 100%; /*Largura*/
+    height: 55px; /*Altura*/
+    position: fixed; /*Posição dos elementos*/
+    background-color: #333; /*Cor de fundo*/
+    box-shadow: 2px 2px 5px royalblue; /*Sobreamento*/
+}
+
+.menuItens{
+    position: fixed; /*Posição dos elementos*/
+    display: flex; /*Posição do menu*/
+    justify-content: right; /*alinhar elementos*/
+    top: 15px; /*Distanciar menu das bordas*/
+    right: center; /*Posição horizontal da borda direita*/
+}
