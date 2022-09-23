@@ -75,3 +75,21 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     top: 15px; /*Distanciar menu das bordas*/
     right: center; /*Posição horizontal da borda direita*/
 }
+
+.menuItens li {
+    line-height: 20px; /*Espacamento entre as linhas de um texto*/
+    height: 50px; /*Altura*/
+}
+
+.menuItens li a{
+    line-height: 20px; /*Espaçamento entre as linhas*/
+    height: 50px; /*Altura*/
+    padding: 20px 10px; /*Distancia do conteúdo das bordas*/
+    color: aliceblue; /*Cor da fonte*/
+    text-transform: none; /*Alterar a forma da fonte (Maiúsculo, Minúsculo  etc)*/
+}
+
+.menuItens li a:hover{ /*Animação do menu*/
+    color: aliceblue;
+    background-color: royalblue;   
+}
