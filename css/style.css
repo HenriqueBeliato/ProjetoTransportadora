@@ -62,7 +62,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 .menuContainer{
     width: 100%; /*Largura*/
-    height: 100px; /*Altura*/
+    height: 60px; /*Altura*/
     position: fixed; /*Posição dos elementos*/
     background-color: #333; /*Cor de fundo*/
     box-shadow: 5px 5px 8px royalblue; /*Sobreamento*/
@@ -70,16 +70,10 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 .menuItens{
     position: initial; /*Posição dos elementos (Direita, esquerda, centro)*/
-    padding: 19px 0; /*Distância do conteúdo ds bordas*/
-    display: flex; /*Posição do menu*/
-    justify-content: right; /*alinhar elementos*/
+    padding: 20px 0; /*Distância do conteúdo ds bordas*/
+    display: flex; /*Posição do menu // Estilo de menu*/
+    justify-content: center; /*Alinhar elementos*/
     right: center; /*Posição horizontal da borda direita*/
-}
-
-.logo{
-    height: 350px; /*Altura*/
-    width: 250px; /*Largura*/
-    padding: 5px 7px; /*Distancia das margens*/
 }
 
 .menuItens li {
@@ -90,7 +84,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .menuItens li a{
     line-height: 20px; /*Espaçamento entre as linhas*/
     height: 50px; /*Altura*/
-    padding: 20px 10px; /*Distancia do conteúdo das bordas*/
+    padding: 20px 38px; /*Distancia do conteúdo das bordas*/
     color: aliceblue; /*Cor da fonte*/
     text-transform: none; /*Alterar a forma da fonte (Maiúsculo, Minúsculo etc)*/
     font-size: 18px; /*Tamanho da fonte*/
@@ -98,8 +92,8 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 }
 
 .menuItens li a:hover{ /*Animação do menu*/
-    color: aliceblue;
-    background-color: royalblue;
+    color: aliceblue; /*Cor da fonte*/
+    background-color: royalblue; /*Cor de fundo*/
     transition: .5s; /*Tempo de transição*/
 }
 
