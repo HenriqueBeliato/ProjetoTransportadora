@@ -111,7 +111,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 .homeContainer h1{
     color: aliceblue; /*Cor da fonte*/
-    font-size: 50px; /*Tamanho da fonte*/
+    font-size: 70px; /*Tamanho da fonte*/
     font-weight: bold; /*Fonte negrita*/
     text-transform: uppercase; /*Deixar a fonte maiúscula*/
     text-shadow: 8px 8px 12px darkred; /*Sombreamento das fontes*/
@@ -119,9 +119,13 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 .homeContainer h2{
     color: aliceblue; /*Cor da fonte*/
-    font-size: 30px; /*Tamanho da fonte*/
+    font-size: 40px; /*Tamanho da fonte*/
     font-weight: bold; /*Fonte negrita*/
     text-transform: uppercase; /*Deixar a fonte maiúscula*/
     text-shadow: 8px 8px 12px darkred; /*Sombreamento das fontes*/
 }
+
+
+/*Sobre Nós*/
+
 
