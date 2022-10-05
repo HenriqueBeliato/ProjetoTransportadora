@@ -55,17 +55,17 @@ iframe{ /*Tag utilizada para mexer em toda a página*/
 }
 
 span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
-    background-color: royalblue; /*Cor da letra ou palavra*/ 
+    background-color: darkred; /*Cor da letra ou palavra*/ 
 }
 
 /*Menu Container*/
 
 .menuContainer{
     width: 100%; /*Largura*/
-    height: 60px; /*Altura*/
+    height: 61px; /*Altura*/
     position: fixed; /*Posição dos elementos*/
     background-color: #333; /*Cor de fundo*/
-    box-shadow: 5px 5px 8px royalblue; /*Sobreamento*/
+    box-shadow: 3px 3px 5px darkred; /*Sobreamento*/
 }
 
 .menuItens{
@@ -93,34 +93,35 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 .menuItens li a:hover{ /*Animação do menu*/
     color: aliceblue; /*Cor da fonte*/
-    background-color: royalblue; /*Cor de fundo*/
+    background-color: darkred; /*Cor de fundo*/
     transition: .5s; /*Tempo de transição*/
 }
 
 /*Home*/
 
 .homeContainer{
-    background-image: url('/img/caminhao3.png.crdownload'); /*Carremagemtno de imagem*/
+    background-image: url('/img/caminhao4.png'); /*Carremagemtno de imagem*/
     background-position: center; /*Define onde a imagem de fundo é posicionada*/
     background-size: cover; /*Especifica o tamanho das imagens de fundo*/
-    background-attachment: local; /*Define se a imagem de fundo vai rolar junto com com o bloco, ou vai permanecer fixa (entre outras funções)*/
-    padding: 15em 5em; /*Distância dos conteúdos das bordas*/
+    background-attachment: fixed; /*Define se a imagem de fundo vai rolar junto com com o bloco, ou vai permanecer fixa (entre outras funções)*/
+    padding: 16em 5em; /*Distância dos conteúdos das bordas*/
     text-align: center; /*Descreve como o conteúdo é alinhado no elemento pai*/
+    margin-top: -10px; /*Define a margem superior de um elemento*/   
 }
 
 .homeContainer h1{
-    color: royalblue; /*Cor da fonte*/
+    color: aliceblue; /*Cor da fonte*/
     font-size: 50px; /*Tamanho da fonte*/
     font-weight: bold; /*Fonte negrita*/
     text-transform: uppercase; /*Deixar a fonte maiúscula*/
-    text-shadow: 8px 8px 12px black; /*Sombreamento das fontes*/
+    text-shadow: 8px 8px 12px darkred; /*Sombreamento das fontes*/
 }
 
 .homeContainer h2{
-    color: royalblue; /*Cor da fonte*/
+    color: aliceblue; /*Cor da fonte*/
     font-size: 30px; /*Tamanho da fonte*/
     font-weight: bold; /*Fonte negrita*/
     text-transform: uppercase; /*Deixar a fonte maiúscula*/
-    text-shadow: 8px 8px 12px black; /*Sombreamento das fontes*/
+    text-shadow: 8px 8px 12px darkred; /*Sombreamento das fontes*/
 }
 
