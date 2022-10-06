@@ -128,4 +128,25 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 /*Sobre Nós*/
 
+.sobreContainer h1{
+    color: black; /*Cor da fonte*/ 
+    text-shadow: 8px 8px 12px darkred; /*Sombreamento*/
+    font-weight: bold; /*Negrito*/
+    text-transform: uppercase; /*Deixar a fonte maiúscula*/
+    text-align: center; /*Deixar palavra no centro*/
+}
+
+.sobreContainer img{
+    padding: 10px 20px; /*Distanciamento dos elementos das bordas*/
+}
+
+.sobreContainer p{
+    color: black; /*Cor da fonte*/
+    font-weight: bold; /*Fonte em negrita*/
+    font-size: 18px; /*Tamanho da fonte*/
+    margin: 1px 20px 1px; /*Distanciamento do texto das bordas*/
+    text-align: justify;
+}
+
+
 
