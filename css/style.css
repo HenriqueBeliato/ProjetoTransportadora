@@ -136,16 +136,24 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     text-align: center; /*Deixar palavra no centro*/
 }
 
-.sobreContainer img{
-    padding: 10px 20px; /*Distanciamento dos elementos das bordas*/
+.sobreContainer img{ 
+    padding: 100px 20px; /*Distanciamento dos elementos das bordas*/
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+}
+
+.texto{ /*Edição do texto em massa*/
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    width: 55em; /*Largura*/
+    padding: 30px; /*Distanciamento das bordas*/
 }
 
 .sobreContainer p{
     color: black; /*Cor da fonte*/
     font-weight: bold; /*Fonte em negrita*/
-    font-size: 18px; /*Tamanho da fonte*/
+    font-size: 15.5px; /*Tamanho da fonte*/
     margin: 1px 20px 1px; /*Distanciamento do texto das bordas*/
-    text-align: justify;
 }
 
 
