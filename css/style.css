@@ -157,6 +157,20 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 /*Frotas*/
 
 #frota { /*Base geral*/
-    height: 700px; /*Altura total do id*/
+    height: 1700px; /*Altura total do id*/
 }
 
+.frotaContainer{
+    background-image: url('/img/frota.png');
+    height: 35.5em; /*Altura*/
+    width: 100%; /*Largura*/
+    margin-top: -10px; /*Distanciamento da imagem das bordas*/
+}
+
+.frotaContainer h1{
+    color: black; /*Cor da fonte*/
+    font-size: 35px; /*Tamanho da fonte*/
+    text-shadow: 8px 8px 12px darkred; /*Sombreamento*/
+    font-weight: bold; /*Negrito*/
+    padding: 260px;
+}
