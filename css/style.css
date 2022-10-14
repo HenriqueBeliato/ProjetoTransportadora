@@ -19,14 +19,6 @@ textarea{ /*Controle de edição para uma caixa de texto*/
     font-family: 'Montserrat';
 }
 
-h1{
-    font-size: 52px; /*Tamanho da fonte*/
-}
-
-h1{
-    font-size: 32px; /*Tamanho da fonte*/
-}
-
 ul{
     list-style: none; /*Tirar os marcadores do lado das palavras*/
 }
@@ -128,7 +120,12 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 /*Sobre Nós*/
 
+#sobre{ /*Base geral*/
+    height: 700px; /*Altura total do id*/
+}
+
 .sobreContainer h1{
+    font-size: 35px; /*Altura da fonte*/
     color: black; /*Cor da fonte*/ 
     text-shadow: 8px 8px 12px darkred; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
@@ -158,4 +155,8 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 
 /*Frotas*/
+
+#frota { /*Base geral*/
+    height: 700px; /*Altura total do id*/
+}
 
