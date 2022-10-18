@@ -161,16 +161,24 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 }
 
 .frotaContainer{
-    background-image: url('/img/frota.png');
-    height: 35.5em; /*Altura*/
-    width: 100%; /*Largura*/
-    margin-top: -10px; /*Distanciamento da imagem das bordas*/
+    background-image: url('/img/frota5edit.png');
+    padding: 15em 10px; /*Distância do conteúdo das bordas*/
+    background-position: center; /*Define onde a imagem de fundo será posicionada*/
+    background-size: cover; /*Especifica o tamanho da imagem de fundo*/
+    background-attachment: scroll; /*Define se a imagem de fundo vai rolar junto com o bloco*/
+    margin-top: -30px; /*Distanciamento da imagem das bordas*/
 }
 
 .frotaContainer h1{
-    color: black; /*Cor da fonte*/
-    font-size: 35px; /*Tamanho da fonte*/
-    text-shadow: 8px 8px 12px darkred; /*Sombreamento*/
+    color: darkred; /*Cor da fonte*/
+    font-size: 50px; /*Tamanho da fonte*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
-    padding: 260px;
+}
+
+.frotaContainer h2{
+    color: darkred; /*Cor da fonte*/
+    font-size: 25px; /*Tamanho da fonte*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    font-weight: bold; /*Negrito*/
 }
