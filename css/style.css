@@ -125,9 +125,9 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 }
 
 .sobreContainer h1{
-    font-size: 35px; /*Altura da fonte*/
-    color: black; /*Cor da fonte*/ 
-    text-shadow: 8px 8px 12px darkred; /*Sombreamento*/
+    font-size: 40px; /*Altura da fonte*/
+    color: darkred; /*Cor da fonte*/ 
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
     text-transform: uppercase; /*Deixar a fonte maiúscula*/
     text-align: center; /*Deixar palavra no centro*/
@@ -181,4 +181,41 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-size: 25px; /*Tamanho da fonte*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
+}
+
+.frotaGeral ul{
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    width: 90%; /*Largura*/
+    position: relative; /*Posição de um elemento (direita, esquerda)*/
+}
+
+.moto h1{
+    font-size: 50px; /*Tamanho da fonte*/
+    text-align: center; /*Centralização da fonte*/
+    color: darkred; /*Cor da fonte*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    font-weight: bold; /*Fonte em negrito*/
+    text-transform: uppercase; /*Fonte em maíscula*/
+    margin: ;
+}
+
+.moto img{
+    padding: 100px 20px; /*Distanciamento dos elementos das bordas*/
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
+}
+
+.entregaMoto{
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*Função para empurar umelemento para a esquerda ou direita*/
+    width: 55em; /*Largura*/
+    padding: 30px;/*Distanciamento das bordas*/
+}
+
+.moto p{
+    color: black; /* Cor da fonte*/
+    font-weight: bold; /*Fonte em negrito*/
+    font-size: 15px; /*Tamanho da fonte*/
+    margin: 1px 20px 1px; /*Distanciamento das bordas*/
 }
