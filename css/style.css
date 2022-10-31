@@ -92,7 +92,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 /*Home*/
 
 .homeContainer{
-    background-image: url('/img/caminhao4.png'); /*Carremagemtno de imagem*/
+    background-image: url('/img/caminhao4.png'); /*Carregamento de imagem*/
     background-position: center; /*Define onde a imagem de fundo é posicionada*/
     background-size: cover; /*Especifica o tamanho das imagens de fundo*/
     background-attachment: fixed; /*Define se a imagem de fundo vai rolar junto com com o bloco, ou vai permanecer fixa (entre outras funções)*/
@@ -158,6 +158,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 #frota { /*Base geral*/
     height: 1700px; /*Altura total do id*/
+    
 }
 
 .frotaContainer{
@@ -196,7 +197,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Fonte em negrito*/
     text-transform: uppercase; /*Fonte em maíscula*/
-    margin: ;
+    margin-top: 50px; /*Distanciamento do item da borda superior*/
 }
 
 .moto img{
@@ -204,13 +205,16 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
     float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
     background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
+    margin-top: -170px; /*Distanciamento do item da borda superior*/
+
 }
 
 .entregaMoto{
     display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
-    float: left; /*Função para empurar umelemento para a esquerda ou direita*/
+    float: left; /*Função para empurar um elemento para a esquerda ou direita*/
     width: 55em; /*Largura*/
     padding: 30px;/*Distanciamento das bordas*/
+    margin-top: -10px; /*Distanciamento do item da borda superior*/
 }
 
 .moto p{
