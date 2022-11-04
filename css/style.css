@@ -158,7 +158,6 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 #frota { /*Base geral*/
     height: 1700px; /*Altura total do id*/
-    
 }
 
 .frotaContainer{
@@ -172,7 +171,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 .frotaContainer h1{
     color: darkred; /*Cor da fonte*/
-    font-size: 50px; /*Tamanho da fonte*/
+    font-size: 40px; /*Tamanho da fonte*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
 }
@@ -184,14 +183,8 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-weight: bold; /*Negrito*/
 }
 
-.frotaGeral ul{
-    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
-    width: 90%; /*Largura*/
-    position: relative; /*Posição de um elemento (direita, esquerda)*/
-}
-
 .moto h1{
-    font-size: 50px; /*Tamanho da fonte*/
+    font-size: 40px; /*Tamanho da fonte*/
     text-align: center; /*Centralização da fonte*/
     color: darkred; /*Cor da fonte*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
@@ -206,7 +199,6 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
     background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
     margin-top: -170px; /*Distanciamento do item da borda superior*/
-
 }
 
 .entregaMoto{
@@ -222,4 +214,40 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-weight: bold; /*Fonte em negrito*/
     font-size: 15px; /*Tamanho da fonte*/
     margin: 1px 20px 1px; /*Distanciamento das bordas*/
+}
+
+.furgaoPequeno h1{
+    font-size: 40px; /*Tamanho da fonte*/
+    text-align: center; /*Centralização da fonte*/
+    color: darkred; /*Cor da fonte*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    font-weight: bold; /*Negrito*/
+    text-transform: uppercase; /*Fonte maiúscula*/
+    margin-top: 190px; /*Distanciamento do item da borda superior*/
+}
+
+.furgaoPequeno img{
+    padding: 100px 20px; /*Distanciamento do elemento das bordas*/
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
+    margin-top: -70px; /*Distanciamento do item da borda superior*/
+    height: 420px; /*Altura*/
+    width: 390px; /*Largura*/
+    margin-left: -400px; /*Arrastar um elemento para a esquerda*/
+} 
+
+.entregaFurgaoPequeno{
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*Função para empurar um elemento para a esquerda ou direita*/
+    width: 55em; /*Largura*/
+    padding: 30px; /*Distanciamento do item da borda superior*/
+}
+
+.furgaoPequeno p{
+    color: black; /*Cor da fonte*/
+    font-weight: bold; /*Fonte em negrito*/
+    font-size: 15px; /*Tamanho da fonte*/
+    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin-top: 70px; /*Distanciamento do item da borda superior*/
 }
