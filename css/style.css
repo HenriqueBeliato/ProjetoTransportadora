@@ -157,7 +157,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 /*Frotas*/
 
 #frota { /*Base geral*/
-    height: 1700px; /*Altura total do id*/
+    height: 3000px; /*Altura total do id*/
 }
 
 .frotaContainer{
@@ -223,7 +223,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
     text-transform: uppercase; /*Fonte maiúscula*/
-    margin-top: 190px; /*Distanciamento do item da borda superior*/
+    margin-top: 260px; /*Distanciamento do item da borda superior*/
 }
 
 .furgaoPequeno img{
@@ -231,17 +231,16 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
     float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
     background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
-    margin-top: -70px; /*Distanciamento do item da borda superior*/
-    height: 420px; /*Altura*/
-    width: 390px; /*Largura*/
-    margin-left: -400px; /*Arrastar um elemento para a esquerda*/
+    margin-top: -170px; /*Distanciamento do item da borda superior*/
+    height: 410px; /*Altura*/
+    width: 430px; /*Largura*/
 } 
 
 .entregaFurgaoPequeno{
     display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
-    float: left; /*Função para empurar um elemento para a esquerda ou direita*/
+    float: right; /*Função para empurar um elemento para a esquerda ou direita*/
     width: 55em; /*Largura*/
-    padding: 30px; /*Distanciamento do item da borda superior*/
+    padding: 30px; /*Distanciamento do item das bordas*/
 }
 
 .furgaoPequeno p{
@@ -249,5 +248,78 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-weight: bold; /*Fonte em negrito*/
     font-size: 15px; /*Tamanho da fonte*/
     margin: 1px 20px 1px; /*Distanciamento das bordas*/
-    margin-top: 70px; /*Distanciamento do item da borda superior*/
+    margin-top: -10px; /*Distanciamento do item da borda superior*/
+    margin-left: -40px; /*Levar o item para a esquerda*/
+}
+
+.furgaoMedio h1{
+    font-size: 40px; /*Tamanho da fonte*/
+    text-align: center; /*Centralização da fonte*/
+    color: darkred; /*Cor da fonte*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    font-weight: bold; /*Negrito*/
+    text-transform: uppercase; /*Fonte maiúscula*/
+    margin-top: 260px; /*Distanciamento da borda superior*/
+}
+
+.furgaoMedio img{
+    padding: 100px 30px; /*Distanciamento do elemento das bordas*/
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
+    margin-top: -170px; /*Distanciamento da borda superior*/
+    height: 410px; /*Altura*/
+    width: 430px; /*Largura*/
+}
+
+.entregaFurgaoMedio{
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: right; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    width: 55em; /*Largura*/
+    padding: 30px; /*Distanciamento do item das bordas*/
+}
+
+.furgaoMedio p{
+    color: black; /*Cor da fonte*/
+    font-weight: bold; /*Negrito*/
+    font-size: 15px; /*Tamanho da fonte*/
+    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin-top: -10px; /*Distanciamento da borda superior*/
+    margin-left: -40px; /*Levar o item para a esquerda*/
+}
+
+.furgaoGrande h1{
+    font-size: 40px; /*Tamanho fonte*/
+    text-align: center; /*Centralização da fonte*/
+    color: darkred; /*Cor da fonte*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    font-weight: bold; /*Negrito*/
+    text-transform: uppercase; /*Fonte maiúscula*/
+    margin-top: 260px; /*Distanciamento da borda superior*/
+}
+
+.furgaoGrande img{
+    padding: 100px 30px; /*Distanciamento do elemento das bordas*/
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
+    margin-top: -170px; /*Distanciamento da borda superior*/
+    height: 490px; /*Altura*/
+    width: 400px; /*Largura*/
+}
+
+.entregaFurgaoGrade{
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: right; /*Função para empurrar um elemento para a esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    width: 55em; /*Largura*/
+    padding: 30px; /*Altura*/
+}
+
+.furgaoGrande p{
+    color: black; /*Cor fonte*/
+    font-weight: bold; /*Negrito*/
+    font-size: 15px; /*Tamanho fonte*/
+    margin: 100px 20px 100px; /*Distanciamento das bordas*/
+    margin-top: 30px; /*Distanciamento da borda superior*/
+    margin-right: 40px; /*Levar o item para a esquerda*/
 }
