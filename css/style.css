@@ -157,7 +157,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 /*Frotas*/
 
 #frota { /*Base geral*/
-    height: 3000px; /*Altura total do id*/
+    height: 5000px; /*Altura total do id*/
 }
 
 .frotaContainer{
@@ -214,6 +214,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-weight: bold; /*Fonte em negrito*/
     font-size: 15px; /*Tamanho da fonte*/
     margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin-right: -25px;
 }
 
 .furgaoPequeno h1{
@@ -304,22 +305,58 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
     background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
     margin-top: -170px; /*Distanciamento da borda superior*/
-    height: 490px; /*Altura*/
+    height: 450px; /*Altura*/
     width: 400px; /*Largura*/
 }
 
-.entregaFurgaoGrade{
+.entregaFurgaoGrande{
     display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
-    float: right; /*Função para empurrar um elemento para a esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
-    width: 55em; /*Largura*/
-    padding: 30px; /*Altura*/
+    float: right; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    width: 52em; /*Largura*/
+    padding: 30px; /*Distanciamento do item das bordas*/
 }
 
 .furgaoGrande p{
-    color: black; /*Cor fonte*/
+    color: black; /*Cor da fonte*/
     font-weight: bold; /*Negrito*/
-    font-size: 15px; /*Tamanho fonte*/
-    margin: 100px 20px 100px; /*Distanciamento das bordas*/
-    margin-top: 30px; /*Distanciamento da borda superior*/
-    margin-right: 40px; /*Levar o item para a esquerda*/
+    font-size: 15px; /*Tamanho da fonte*/
+    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin-top: -10px; /*Distanciamento da borda superior*/
+    margin-left: -90px; /*Levar o item para a esquerda*/
+}
+
+.vucComBau h1{
+    font-size: 40px; /*Tamanho da fonte*/
+    text-align: center; /*Centralização da fonte*/
+    color: darkred; /*Cor da fonte*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    font-weight: bold; /*Negrito*/
+    text-transform: uppercase; /*Fonte maiúscula*/
+    margin-top: 280px; /*Distanciamento da borda superior*/
+}
+
+.vucComBau img{
+    padding: 100px 30px; /*Distanciamento das bordas*/
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
+    margin-top: -190px; /*Distancia da borda superior*/
+    margin-left: -40px; /*Levar o item para a esquerda*/
+    height: 510px; /*Altura*/
+    width: 450px; /*Largura*/
+}
+
+.entregaVucComBau{
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    width: 55em; /*Largura*/
+    padding: 30px; /*Distanciamento das bordas*/
+}
+
+.vucComBau p{
+    color: black; /*Cor da fonte*/
+    font-weight: bold; /*Negrito*/
+    font-size: 15px; /*Altura da fonte*/
+    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin-top: -10px; /*Distanciamento da borda superior*/
 }
