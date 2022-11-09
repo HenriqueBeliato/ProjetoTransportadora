@@ -341,8 +341,8 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
     background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
     margin-top: -190px; /*Distancia da borda superior*/
-    margin-left: -40px; /*Levar o item para a esquerda*/
-    height: 510px; /*Altura*/
+    margin-left: -10px; /*Levar o item para a esquerda*/
+    height: 490px; /*Altura*/
     width: 450px; /*Largura*/
 }
 
@@ -358,5 +358,41 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-weight: bold; /*Negrito*/
     font-size: 15px; /*Altura da fonte*/
     margin: 1px 20px 1px; /*Distanciamento das bordas*/
-    margin-top: -10px; /*Distanciamento da borda superior*/
+    margin-left: -15px; /*Levar o texto para a esquerda*/
+}
+
+.vucSemBau h1{
+    font-size: 40px; /*Tamanho da fonte*/
+    text-align: center; /*Centralização da fonte*/
+    color: darkred; /*Cor da fonte*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    font-weight: bold; /*Negrito*/
+    text-transform: uppercase; /*Fonte maiúscula*/
+    margin-top: 310px; /*Distanciamento da borda superior*/
+}
+
+.vucSemBau img{
+    padding: 100px 30px; /*Distanciamento das bordas*/
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
+    margin-top: -160px; /*Distanciamento da borda superior*/
+    height: 420px; /*Altura*/
+    width: 450px; /*Largura*/
+}
+
+.entregaVucSemBau{
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    width: 53em; /*Largura*/
+    padding: 30px; /*Distanciamento das bordas*/
+}
+
+.entregaVucSemBau p{
+    color: black; /*Cor da fonte*/
+    font-weight: bold; /*Fonte negrito*/
+    font-size: 15px; /*Tamanho da fonte*/
+    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin-left: -17px; /*Arrastar o texto para a esquerda*/
+    margin-top: -15px;
 }
