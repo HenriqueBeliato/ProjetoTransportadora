@@ -394,5 +394,113 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-size: 15px; /*Tamanho da fonte*/
     margin: 1px 20px 1px; /*Distanciamento das bordas*/
     margin-left: -17px; /*Arrastar o texto para a esquerda*/
-    margin-top: -15px;
+    margin-top: -15px; /*Distanciamento da borda superior*/
+}
+
+.bauM h1{
+    font-size: 40px; /*Tamanho da fonte*/
+    text-align: center; /*Centralização da fonte*/
+    color: darkred; /*Cor da fonte*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    font-weight: bold; /*Fonte negrito*/
+    text-transform: uppercase; /*Fonte maiúscula*/
+    margin-top: 280px; /*Distanciamento da borda superior*/
+}
+
+.bauM img{
+    padding: 100px 30px; /*Distanciamento do elemento das bordas*/
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
+    margin-top: -140px; /*Distanciamento do elemento da borda superior*/
+    height: 450px; /*Altura*/
+    width: 370px; /*Largura*/
+    margin-left: 30px /*Arrastar o elemento para a esquerda*/
+}
+
+.entregaBauM{
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    width: 55em; /*Largura*/
+    padding: 28px; /*Distanciamento das bordas*/
+}
+
+.bauM p{
+    color: black; /*Cor da fonte*/
+    font-weight: bold; /*Negrito*/
+    font-size: 15px; /*Tamanho da fonte*/
+    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin-left: 28px; /*Empurrar o elemento para a esquerda*/
+}
+
+.bauG h1{
+    font-size: 40px; /*Tamanho da fonte*/
+    text-align: center; /*Centralização da fonte*/
+    color: darkred; /*Cor da fonte*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    font-weight: bold; /*Negrito*/
+    text-transform: uppercase; /*Fonte maiúscula*/
+    margin-top: 335px; /*Distanciamento da borda superior*/
+}
+
+.bauG img{
+    padding: 100px 30px; /*Distanciamento das bordas*/
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
+    margin-top: -150px; /*Distanciamento da borda superior*/
+    height: 480px; /*Altura*/
+    width: 380px; /*Largura*/
+    margin-left: 28px; /*Empurar o elemento para a esquerda*/
+}
+
+.entregaBauG{
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    width: 55em; /*Largura*/
+    padding: 20px; /*Distanciamento das bordas*/ 
+}
+
+.bauG p{
+    color: black; /*Cor da fonte*/
+    font-weight: bold; /*Negrito*/
+    font-size: 15px; /*Tamanho da fonte*/
+    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin-left: 20px; /*Empurrar o elemento para a esquerda*/
+}
+
+.bauGG h1{
+    font-size: 40px; /*Tamanho da fonte*/
+    text-align: center; /*Centralização da fonte*/
+    color: darkred; /*Cor da fonte*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    font-weight: bold; /*Negrito*/
+    text-transform: uppercase; /*Texto maiúsculo*/
+    margin-top: 390px; /*Distanciamento da borda superior*/
+}
+
+.bauGG img{
+    padding: 100px 30px; /*Distanciamento do elemento da bordas*/
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
+    margin-top: -160px; /*Distanciamento da borda superior*/
+    height: 510px; /*Altura*/
+    width: 450px; /*Largura*/
+}
+
+.entregaBauGG{
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    width: 52em; /*Largura*/
+    padding: 20px; /*Distanciamento das bordas*/
+    margin-top: 10px;
+}
+
+.bauGG p{
+    color: black; /*Cor da fonte*/
+    font-weight: bold; /*Negrito*/
+    font-size: 15px; /*Tamanho da fonte*/
+    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin-left: -20px; /*Arrastar o elemento para a esquerda*/
 }
