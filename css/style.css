@@ -213,7 +213,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     color: black; /* Cor da fonte*/
     font-weight: bold; /*Fonte em negrito*/
     font-size: 15px; /*Tamanho da fonte*/
-    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
     margin-right: -25px;
 }
 
@@ -248,7 +248,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     color: black; /*Cor da fonte*/
     font-weight: bold; /*Fonte em negrito*/
     font-size: 15px; /*Tamanho da fonte*/
-    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
     margin-top: -10px; /*Distanciamento do item da borda superior*/
     margin-left: -40px; /*Levar o item para a esquerda*/
 }
@@ -284,7 +284,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     color: black; /*Cor da fonte*/
     font-weight: bold; /*Negrito*/
     font-size: 15px; /*Tamanho da fonte*/
-    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
     margin-top: -10px; /*Distanciamento da borda superior*/
     margin-left: -40px; /*Levar o item para a esquerda*/
 }
@@ -320,7 +320,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     color: black; /*Cor da fonte*/
     font-weight: bold; /*Negrito*/
     font-size: 15px; /*Tamanho da fonte*/
-    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
     margin-top: -10px; /*Distanciamento da borda superior*/
     margin-left: -90px; /*Levar o item para a esquerda*/
 }
@@ -357,7 +357,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     color: black; /*Cor da fonte*/
     font-weight: bold; /*Negrito*/
     font-size: 15px; /*Altura da fonte*/
-    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
     margin-left: -15px; /*Levar o texto para a esquerda*/
 }
 
@@ -392,7 +392,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     color: black; /*Cor da fonte*/
     font-weight: bold; /*Fonte negrito*/
     font-size: 15px; /*Tamanho da fonte*/
-    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
     margin-left: -17px; /*Arrastar o texto para a esquerda*/
     margin-top: -15px; /*Distanciamento da borda superior*/
 }
@@ -429,7 +429,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     color: black; /*Cor da fonte*/
     font-weight: bold; /*Negrito*/
     font-size: 15px; /*Tamanho da fonte*/
-    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
     margin-left: 28px; /*Empurrar o elemento para a esquerda*/
 }
 
@@ -465,7 +465,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     color: black; /*Cor da fonte*/
     font-weight: bold; /*Negrito*/
     font-size: 15px; /*Tamanho da fonte*/
-    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
     margin-left: 20px; /*Empurrar o elemento para a esquerda*/
 }
 
@@ -494,13 +494,83 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
     width: 52em; /*Largura*/
     padding: 20px; /*Distanciamento das bordas*/
-    margin-top: 10px;
+    margin-top: 10px; /*Distanciamento da borda superior*/
 }
 
 .bauGG p{
     color: black; /*Cor da fonte*/
     font-weight: bold; /*Negrito*/
     font-size: 15px; /*Tamanho da fonte*/
-    margin: 1px 20px 1px; /*Distanciamento das bordas*/
+    margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
     margin-left: -20px; /*Arrastar o elemento para a esquerda*/
+}
+
+.carreta h1{
+    font-size: 40px; /*Tamanho da fonte*/
+    text-align: center; /*Centralização  da fonte*/
+    color: darkred; /*Cor da fonte*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    font-weight: bold; /*Fonte em negrito*/
+    text-transform: uppercase; /*Fonte em letra maiúscula*/
+    margin-top: 340px; /*Distanciamento da borda superior*/
+}
+
+.carreta img{
+    padding: 100px 30px; /*Distanciamento do elemento das bordas*/
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
+    margin-top: -160px; /*Distanciamento da borda superior*/
+    height: 450px; /*Altura*/
+    width: 430px; /*Largura*/
+    margin-left: 10px; /*Arrastar a imagem para a esquerda*/
+}
+
+.entregaCarreta{
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    width: 50em; /*Largura*/
+    padding: 10px; /*Distanciamento das bordas*/
+}
+
+.carreta p{
+    color: black; /*Cor da fonte*/
+    font-weight: bold; /*Negrito*/
+    font-size: 15px; /*Tamanho da fonte*/
+    margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
+    margin-left: -10px; /*Arrastar o item para a esquerda*/
+}
+
+.rodotrem h1{
+    font-size: 40px; /*Tamanho da fonte*/
+    text-align: center; /*Centralização da fonte*/
+    color: darkred; /*Cor da fonte*/
+    font-weight: bold; /*Negrito*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    text-transform: uppercase; /*Fonte maiúscula*/
+    margin-top: 300px; /*Distanciamento da borda superior*/
+}
+
+.rodotrem img{
+    padding: 100px 30px; /*Distanciamento dos elementos das bordas*/
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/ 
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
+    height: 480px; /*Altura*/
+    width: 420px; /*Largura*/
+    margin-top: -110px; /*Distanciamento da borda superior*/
+}
+
+.entregaRodotrem{
+    display: table-cell; /*Display table-cell indica a estrutura de tabela (pra ficar uma ao lado da outra)*/
+    float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
+    width: 53em; /*Largura*/
+    padding: 10px; /*Distanciamento das bordas*/
+}
+
+.rodotrem p{
+    color: black; /*Cor da fonte*/
+    font-weight: bold; /*Negrito*/
+    font-size: 15px; /*Tamanho da fonte*/
+    margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
 }
