@@ -127,7 +127,6 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .sobreContainer h1{
     font-size: 40px; /*Altura da fonte*/
     color: darkred; /*Cor da fonte*/ 
-    text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
     text-transform: uppercase; /*Deixar a fonte maiúscula*/
     text-align: center; /*Deixar palavra no centro*/
@@ -172,14 +171,12 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .frotaContainer h1{
     color: darkred; /*Cor da fonte*/
     font-size: 40px; /*Tamanho da fonte*/
-    text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
 }
 
 .frotaContainer h2{
     color: darkred; /*Cor da fonte*/
     font-size: 25px; /*Tamanho da fonte*/
-    text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
 }
 
@@ -521,9 +518,9 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     float: left; /*função para empurrar um elemento para esquerda ou direita, permitindo que os outros elementos possam organizar em torno dele*/
     background-attachment: fixed; /*Define se a imagem vai rolar junto com o bloco*/
     margin-top: -160px; /*Distanciamento da borda superior*/
-    height: 450px; /*Altura*/
-    width: 430px; /*Largura*/
-    margin-left: 10px; /*Arrastar a imagem para a esquerda*/
+    height: 420px; /*Altura*/
+    width: 400px; /*Largura*/
+    margin-left: 25px; /*Arrastar a imagem para a esquerda*/
 }
 
 .entregaCarreta{
@@ -538,7 +535,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-weight: bold; /*Negrito*/
     font-size: 15px; /*Tamanho da fonte*/
     margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
-    margin-left: -10px; /*Arrastar o item para a esquerda*/
+    margin-left: 15px; /*Arrastar o item para a esquerda*/
 }
 
 .rodotrem h1{
@@ -579,5 +576,22 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 #localizacao{
     height: 3000px; /*Altura total do id*/
+    margin-top: -110px;
 }
+
+.localizacaoEmpresa h1{
+    font-size: 40px; /*Tamanho da fonte*/
+    text-align: center; /*Centralização da fonte*/
+    color: darkred; /*Cor da fonte*/
+    font-weight: bold; /*Negrito*/
+    text-transform: uppercase; /*Fonte em maiúscula*/
+    margin-left: 400px; /*Arrastar o texto para a esquerda*/
+
+}
+.localizacaoEmpresa img{
+    margin-top: 50px;
+    margin-left: 200px;
+    float: left;
+}
+
 
