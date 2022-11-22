@@ -574,3 +574,10 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-size: 15px; /*Tamanho da fonte*/
     margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
 }
+
+/*Localização*/
+
+#localizacao{
+    height: 3000px; /*Altura total do id*/
+}
+
