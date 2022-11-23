@@ -579,19 +579,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     margin-top: -110px;
 }
 
-.localizacaoEmpresa h1{
-    font-size: 40px; /*Tamanho da fonte*/
-    text-align: center; /*Centralização da fonte*/
-    color: darkred; /*Cor da fonte*/
-    font-weight: bold; /*Negrito*/
-    text-transform: uppercase; /*Fonte em maiúscula*/
-    margin-left: 400px; /*Arrastar o texto para a esquerda*/
 
-}
-.localizacaoEmpresa img{
-    margin-top: 50px;
-    margin-left: 200px;
-    float: left;
-}
+
 
 
