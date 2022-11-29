@@ -57,7 +57,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     height: 61px; /*Altura*/
     position: fixed; /*Posição dos elementos*/
     background-color: #333; /*Cor de fundo*/
-    box-shadow: 3px 3px 5px darkred; /*Sobreamento*/
+    box-shadow: 3px 3px 5px red; /*Sobreamento*/
 }
 
 .menuItens{
@@ -85,7 +85,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 .menuItens li a:hover{ /*Animação do menu*/
     color: aliceblue; /*Cor da fonte*/
-    background-color: darkred; /*Cor de fundo*/
+    background-color: red; /*Cor de fundo*/
     transition: .5s; /*Tempo de transição*/
 }
 
@@ -106,7 +106,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-size: 70px; /*Tamanho da fonte*/
     font-weight: bold; /*Fonte negrita*/
     text-transform: uppercase; /*Deixar a fonte maiúscula*/
-    text-shadow: 8px 8px 12px darkred; /*Sombreamento das fontes*/
+    text-shadow: 8px 8px 12px red; /*Sombreamento das fontes*/
 }
 
 .homeContainer h2{
@@ -114,7 +114,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-size: 40px; /*Tamanho da fonte*/
     font-weight: bold; /*Fonte negrita*/
     text-transform: uppercase; /*Deixar a fonte maiúscula*/
-    text-shadow: 8px 8px 12px darkred; /*Sombreamento das fontes*/
+    text-shadow: 8px 8px 12px red; /*Sombreamento das fontes*/
 }
 
 
@@ -126,7 +126,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 .sobreContainer h1{
     font-size: 40px; /*Altura da fonte*/
-    color: darkred; /*Cor da fonte*/ 
+    color: red; /*Cor da fonte*/ 
     font-weight: bold; /*Negrito*/
     text-transform: uppercase; /*Deixar a fonte maiúscula*/
     text-align: center; /*Deixar palavra no centro*/
@@ -169,13 +169,13 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 }
 
 .frotaContainer h1{
-    color: darkred; /*Cor da fonte*/
+    color: red; /*Cor da fonte*/
     font-size: 40px; /*Tamanho da fonte*/
     font-weight: bold; /*Negrito*/
 }
 
 .frotaContainer h2{
-    color: darkred; /*Cor da fonte*/
+    color: red; /*Cor da fonte*/
     font-size: 25px; /*Tamanho da fonte*/
     font-weight: bold; /*Negrito*/
 }
@@ -183,7 +183,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .moto h1{
     font-size: 40px; /*Tamanho da fonte*/
     text-align: center; /*Centralização da fonte*/
-    color: darkred; /*Cor da fonte*/
+    color: red; /*Cor da fonte*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Fonte em negrito*/
     text-transform: uppercase; /*Fonte em maíscula*/
@@ -217,7 +217,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .furgaoPequeno h1{
     font-size: 40px; /*Tamanho da fonte*/
     text-align: center; /*Centralização da fonte*/
-    color: darkred; /*Cor da fonte*/
+    color: red; /*Cor da fonte*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
     text-transform: uppercase; /*Fonte maiúscula*/
@@ -253,7 +253,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .furgaoMedio h1{
     font-size: 40px; /*Tamanho da fonte*/
     text-align: center; /*Centralização da fonte*/
-    color: darkred; /*Cor da fonte*/
+    color: red; /*Cor da fonte*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
     text-transform: uppercase; /*Fonte maiúscula*/
@@ -289,7 +289,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .furgaoGrande h1{
     font-size: 40px; /*Tamanho fonte*/
     text-align: center; /*Centralização da fonte*/
-    color: darkred; /*Cor da fonte*/
+    color: red; /*Cor da fonte*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
     text-transform: uppercase; /*Fonte maiúscula*/
@@ -325,7 +325,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .vucComBau h1{
     font-size: 40px; /*Tamanho da fonte*/
     text-align: center; /*Centralização da fonte*/
-    color: darkred; /*Cor da fonte*/
+    color: red; /*Cor da fonte*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
     text-transform: uppercase; /*Fonte maiúscula*/
@@ -361,7 +361,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .vucSemBau h1{
     font-size: 40px; /*Tamanho da fonte*/
     text-align: center; /*Centralização da fonte*/
-    color: darkred; /*Cor da fonte*/
+    color: red; /*Cor da fonte*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
     text-transform: uppercase; /*Fonte maiúscula*/
@@ -397,7 +397,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .bauM h1{
     font-size: 40px; /*Tamanho da fonte*/
     text-align: center; /*Centralização da fonte*/
-    color: darkred; /*Cor da fonte*/
+    color: red; /*Cor da fonte*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Fonte negrito*/
     text-transform: uppercase; /*Fonte maiúscula*/
@@ -433,7 +433,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .bauG h1{
     font-size: 40px; /*Tamanho da fonte*/
     text-align: center; /*Centralização da fonte*/
-    color: darkred; /*Cor da fonte*/
+    color: red; /*Cor da fonte*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
     text-transform: uppercase; /*Fonte maiúscula*/
@@ -469,7 +469,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .bauGG h1{
     font-size: 40px; /*Tamanho da fonte*/
     text-align: center; /*Centralização da fonte*/
-    color: darkred; /*Cor da fonte*/
+    color: red; /*Cor da fonte*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Negrito*/
     text-transform: uppercase; /*Texto maiúsculo*/
@@ -505,7 +505,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .carreta h1{
     font-size: 40px; /*Tamanho da fonte*/
     text-align: center; /*Centralização  da fonte*/
-    color: darkred; /*Cor da fonte*/
+    color: red; /*Cor da fonte*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     font-weight: bold; /*Fonte em negrito*/
     text-transform: uppercase; /*Fonte em letra maiúscula*/
@@ -541,7 +541,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 .rodotrem h1{
     font-size: 40px; /*Tamanho da fonte*/
     text-align: center; /*Centralização da fonte*/
-    color: darkred; /*Cor da fonte*/
+    color: red; /*Cor da fonte*/
     font-weight: bold; /*Negrito*/
     text-shadow: 8px 8px 12px black; /*Sombreamento*/
     text-transform: uppercase; /*Fonte maiúscula*/
