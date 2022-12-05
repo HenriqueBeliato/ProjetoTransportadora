@@ -575,7 +575,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 /*Localização*/
 
 #localizacao{
-    height: 3000px; /*Altura total do id*/
+    height: 1300px; /*Altura total do id*/
     margin-top: -150px;
 }
 
@@ -619,3 +619,34 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 }
 
 /*Contato*/
+
+.contato{
+    height: 890px;
+}
+
+.contato h1{
+    font-size: 40px; /*Tamanho da fonte*/
+    text-align: center; /*Centralização do texto*/
+    color: darkred; /*Cor da fonte*/
+    font-weight: bold; /*Negrito*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    text-transform: uppercase; /*Fonte maiúscula*/
+}
+
+.contato p{
+    color: black; /*Cor da fonte*/
+    font-weight: bold; /*Negrito*/
+    text-align: center; /*Centralização do texto*/
+    margin-top: 40px; /*Distanciamento da borda superior*/
+    font-size: 19px; /*Tamanho da fonte*/
+}
+
+.contatoTransp h2{
+    font-size: 20px; /*Tamanho da fonte*/
+    text-align: center; /*Centralização da fonte*/
+    color: darkred; /*Cor da fonte*/
+    font-weight: bold; /*Negrito*/
+    text-shadow: 8px 8px 12px black; /*Sombreamento*/
+    text-transform: uppercase; /*Maiúsculo*/
+    margin-top: 50px; /*Distanciamento da borda superior*/
+}
