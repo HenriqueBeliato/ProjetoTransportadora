@@ -44,6 +44,7 @@ iframe{ /*Tag utilizada para mexer em toda a página*/
     width: 100%; /*Largura de um elemento*/
     height: 500px; /*Altura de um elemento*/
     border: 0; /*Contorno de um elemento*/
+
 }
 
 span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
@@ -121,7 +122,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 /*Sobre Nós*/
 
 #sobre{ /*Base geral*/
-    height: 700px; /*Altura total do id*/
+    height: 720px; /*Altura total do id*/
 }
 
 .sobreContainer h1{
@@ -156,7 +157,9 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 /*Frotas*/
 
 #frota { /*Base geral*/
-    height: 5050px; /*Altura total do id*/
+    height: 4800px; /*Altura total do id*/
+    list-style: none;
+    margin-top: 30px;
 }
 
 .frotaContainer{
@@ -222,6 +225,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-weight: bold; /*Negrito*/
     text-transform: uppercase; /*Fonte maiúscula*/
     margin-top: 260px; /*Distanciamento do item da borda superior*/
+    margin-right: 400px; /*Distanciamento para a esquerda*/
 }
 
 .furgaoPequeno img{
@@ -247,7 +251,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-size: 15px; /*Tamanho da fonte*/
     margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
     margin-top: -10px; /*Distanciamento do item da borda superior*/
-    margin-left: -40px; /*Levar o item para a esquerda*/
+    margin-left: -55px; /*Levar o item para a esquerda*/
 }
 
 .furgaoMedio h1{
@@ -283,7 +287,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-size: 15px; /*Tamanho da fonte*/
     margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
     margin-top: -10px; /*Distanciamento da borda superior*/
-    margin-left: -40px; /*Levar o item para a esquerda*/
+    margin-left: -55px; /*Levar o item para a esquerda*/
 }
 
 .furgaoGrande h1{
@@ -319,7 +323,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-size: 15px; /*Tamanho da fonte*/
     margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
     margin-top: -10px; /*Distanciamento da borda superior*/
-    margin-left: -90px; /*Levar o item para a esquerda*/
+    margin-left: -110px; /*Levar o item para a esquerda*/
 }
 
 .vucComBau h1{
@@ -355,7 +359,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-weight: bold; /*Negrito*/
     font-size: 15px; /*Altura da fonte*/
     margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
-    margin-left: -15px; /*Levar o texto para a esquerda*/
+    margin-left: -35px; /*Levar o texto para a esquerda*/
 }
 
 .vucSemBau h1{
@@ -390,7 +394,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-weight: bold; /*Fonte negrito*/
     font-size: 15px; /*Tamanho da fonte*/
     margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
-    margin-left: -17px; /*Arrastar o texto para a esquerda*/
+    margin-left: -37px; /*Arrastar o texto para a esquerda*/
     margin-top: -15px; /*Distanciamento da borda superior*/
 }
 
@@ -427,7 +431,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-weight: bold; /*Negrito*/
     font-size: 15px; /*Tamanho da fonte*/
     margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
-    margin-left: 28px; /*Empurrar o elemento para a esquerda*/
+    margin-left: 8px; /*Empurrar o elemento para a esquerda*/
 }
 
 .bauG h1{
@@ -463,7 +467,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-weight: bold; /*Negrito*/
     font-size: 15px; /*Tamanho da fonte*/
     margin: 1px 20px 1px; /*Definir a forma de distancimanento das margens*/
-    margin-left: 20px; /*Empurrar o elemento para a esquerda*/
+    margin-left: 10px; /*Empurrar o elemento para a esquerda*/
 }
 
 .bauGG h1{
@@ -510,6 +514,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     font-weight: bold; /*Fonte em negrito*/
     text-transform: uppercase; /*Fonte em letra maiúscula*/
     margin-top: 340px; /*Distanciamento da borda superior*/
+    margin-right: 450px; /*Arrastar o elemento para a esquerda*/
 }
 
 .carreta img{
@@ -576,7 +581,6 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 
 #localizacao{
     height: 1300px; /*Altura total do id*/
-    margin-top: -150px;
 }
 
 .localizacaoEmpresa h1{
