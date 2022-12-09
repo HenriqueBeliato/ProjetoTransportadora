@@ -625,8 +625,8 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 /*Contato*/
 
 #contato{
-    height: 990px;
-    margin-top: -50px;
+    height: 990px; /*Altura total do id*/
+    margin-top: -50px; /*distanciamento da borda superior*/
 }
 
 .contatoEmpresa h1{
@@ -657,22 +657,37 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     
 }
 
-.contatoTransp ul li{
-    display: inline; /*Itens lado a lado*/
+.contatoTransp ul{
+    display: flex; /*Deixar os objetos em linha*/
+    justify-content: center; /*Centralização das imagens*/
 }
 
-.contatoTransp ul li a{
-    font-family:'Montserrat'; /*Fonte*/
-    display: inline-block; /*Deixar os itens lado a lado já definindo largura e altura*/
-    font-size: 40px; /*Tamanho da fonte*/
-    line-height: 100px; /*Espaçamento entre as linhas de texto*/
-    height: 100px; /*Altura*/
+.contatoTransp ul a{
+    display: block; /*Posicionamento em uma nova linha*/
+    padding: 10px; /*Distanciamento dos elementos*/
 }
 
-.contatoTransp ul li a:hover{
-    filter: invert(20%); /*Inversão de cores*/
-    background-color: darkred; /*Cor da fonte*/
-    border-radius: 50px; /*Arredondamento das bordas*/
-    padding: 20px; /*Distancia do elemento das bordas*/
+.contatoTransp ul li a img{
+    max-width: 70px; /*tamanho dos elementos*/
+    margin-top: 20px; /*distanciamento da borda superior*/
+}
+
+.contatoTransp ul li a img:hover{
+    filter: invert(30%); /*Filtro de inversão de cores*/
+    background-color: aliceblue; /*Cor do elemento*/
+    border-radius: 100px; /*Borda arredondada*/
+    padding: 10px; /*Distanciamento do elemento na transição*/
+    transition: .6s; /*Efeito de transição*/
+}
+
+.register{
+    height: 50px; /**/
+}
+.register h2{
+    text-align: center; /*Centralização da frase*/
+    margin-top: 20px; /*Distanciamento da borda superior*/
+    font-weight: bold; /*Negrito*/
+    color: black; /*Cor da fonte*/
+    font-size: 14px; /*tamanho da fonte*/
 }
 
