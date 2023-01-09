@@ -1,5 +1,4 @@
 /*
-
 PRINCIPAIS BREAKPOINTS
 
 320px - 480px: dispositivos móveis
@@ -7,7 +6,11 @@ PRINCIPAIS BREAKPOINTS
 769px - 1024px: telas pequenas, leptops
 1025px - 1200px: desktops, telas grandes (widescreen)
 1201px e a cima: telas enormes (tv's)
-
 */
 
-/*inicio do processo*/
+/*Desktop*/
+@media screen and (max-width:1200px) {
+    html, body{
+        overflow-x: hidden;
+    }
+}
