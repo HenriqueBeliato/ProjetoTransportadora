@@ -8,9 +8,16 @@ PRINCIPAIS BREAKPOINTS
 1201px e a cima: telas enormes (tv's)
 */
 
-/*Desktop*/
-@media screen and (max-width:1200px) {
+/*1201 e a cima - Telas Enormes*/
+@media screen and (max-width: 1200px) {
     html, body{
         overflow-x: hidden;
     }
+
+/*Locais que deram problema no site, que precisam ser corrigidos*/
+
+    /*Página Inicial*/
+    
+
+
 }

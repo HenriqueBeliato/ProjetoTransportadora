@@ -61,10 +61,6 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     box-shadow: 3px 3px 5px darkred; /*Sobreamento*/
 }
 
-.menuContainer button{ /*Menu Hambúrguer*/
-    display: none; /*Fica estacionado na mesma posição*/
-}
-
 .menuItens{
     position: initial; /*Posição dos elementos (Direita, esquerda, centro)*/
     padding: 20px 0; /*Distância do conteúdo ds bordas*/
@@ -685,7 +681,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
 }
 
 .register{
-    height: 50px; /*Altura*/
+    height: 50px; /*Altura */
 }
 .register h2{
     text-align: center; /*Centralização da frase*/
