@@ -16,8 +16,16 @@ PRINCIPAIS BREAKPOINTS
 
 /*Locais que deram problema no site, que precisam ser corrigidos*/
 
-    /*Página Inicial*/
-    
+    /*Sobre Nós*/
+    .texto{
+        display: table-cell;
+        float: left;
+        width: 30em;
+        padding: 20px;
+    }
 
-
+    .sobreContainer p{
+        font-size: 14px;
+        margin: 1px 15px 1px;
+    }
 }
