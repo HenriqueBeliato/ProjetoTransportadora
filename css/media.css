@@ -8,24 +8,42 @@ PRINCIPAIS BREAKPOINTS
 1201px e a cima: telas enormes (tv's)
 */
 
-/*1201 e a cima - Telas Enormes*/
-@media screen and (max-width: 1200px) {
+/* 1025px - 1200px - Telas Enormes*/
+@media screen and (max-width: 1024px) {
     html, body{
         overflow-x: hidden;
     }
 
 /*Locais que deram problema no site, que precisam ser corrigidos*/
 
-    /*Sobre Nós*/
-    .texto{
-        display: table-cell;
-        float: left;
-        width: 30em;
+    /*Home*/
+    .homeContainer h1{
+        font-size: 70px;
         padding: 20px;
     }
 
+    .homeContainer h2{
+        font-size: 30px;
+    }
+
+    /*Sobre Nós*/
+    .sobreContainer h1{
+        margin-top: -60px;
+    }
+
+    .sobreContainer img{
+        margin-left: 280px;
+        opacity: 20%;
+    }
+
+    .texto{
+        margin-top: -690px;
+        width: 65em;
+    }
+
     .sobreContainer p{
-        font-size: 14px;
-        margin: 1px 15px 1px;
+        font-size: 17.5px;
+        color: black;
+        font-weight: bold;
     }
 }
