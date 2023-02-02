@@ -54,15 +54,38 @@ PRINCIPAIS BREAKPOINTS
         height: 6800px;
     }
     .moto img{
-        margin-top: -40px;
+        margin-top: -80px;
         margin-left: 28%;
     }
 
     .entregaMoto p{
-        margin-top: -80px;
+        margin-top: -100px;
         margin-left: 130px;
         font-size: 18px;
     }
 
+    .furgaoPequeno h1{
+        text-align: center;
+        margin-top: 390px;
+    }
+
+    .furgaoPequeno img{
+        margin-top: -99px;
+        margin-left: 25%;
+        height: 460px;
+        width: 490px;
+    }
+
+    .furgaoPequeno p{
+        margin-top: -100px;
+        font-size: 18px;
+        width: 40em;
+        margin-top: -110px;
+        margin-left: -2px;
+    }
+
+    .furgaoMedio h1{
+
+    }
     
 }
