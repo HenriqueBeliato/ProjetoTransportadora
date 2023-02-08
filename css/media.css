@@ -53,6 +53,16 @@ PRINCIPAIS BREAKPOINTS
     #frota{
         height: 6800px;
     }
+
+    .frotaContainer h1{
+        font-size: 40px;
+        margin-top: 70px;
+    }
+
+    .frontaContainer h2{
+        font-size: 30px;
+    }
+
     .moto img{
         margin-top: -80px;
         margin-left: 28%;
@@ -65,8 +75,9 @@ PRINCIPAIS BREAKPOINTS
     }
 
     .furgaoPequeno h1{
-        text-align: center;
+        margin: auto;
         margin-top: 390px;
+        margin-right: 5%;
     }
 
     .furgaoPequeno img{
@@ -80,12 +91,63 @@ PRINCIPAIS BREAKPOINTS
         margin-top: -100px;
         font-size: 18px;
         width: 40em;
-        margin-top: -110px;
         margin-left: -2px;
     }
 
     .furgaoMedio h1{
+        margin-top: 550px;
+    }
 
+    .furgaoMedio img{
+        margin-top: -80px;
+        height: 460px;
+        width: 490px;
+        margin-left: 25%;
+    }
+    .furgaoMedio p{
+        margin-top: -100px;
+        font-size: 18px;
+        width: 40em;
+        margin-left: -2px;
     }
     
+    .furgaoGrande h1{
+        margin-top: 550px;
+    }
+
+    .furgaoGrande img{
+        margin-top: -80px;
+        height: 520px;
+        width: 490px;
+        margin-left: 25%;
+    }
+
+    .furgaoGrande p{
+        margin-top: -100px;
+        font-size: 18px;
+        width: 40em;
+        margin-left: -50px;
+    }
+
+    .vucComBau h1{
+        margin-top: 620px;
+    }
+
+    .vucComBau img{
+        margin-top: -100px;
+        height: 520px;
+        width: 490px;
+        margin-left: 25%;
+    }
+
+    .vucComBau p{
+        margin-top: -100px;
+        font-size: 18px;
+        width: 40em;
+    
+    }
+    
+    .vucSemBau h1{
+        margin-top: 700px;
+    }
 }
