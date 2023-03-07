@@ -51,7 +51,7 @@ PRINCIPAIS BREAKPOINTS
     /*Frotas*/
 
     #frota{
-        height: 6800px;
+        height: 9000px;
     }
 
     .frotaContainer h1{
@@ -144,10 +144,130 @@ PRINCIPAIS BREAKPOINTS
         margin-top: -100px;
         font-size: 18px;
         width: 40em;
+        margin-left: 140px;
     
     }
     
     .vucSemBau h1{
+        margin-top: 650px;
+    }
+
+    .vucSemBau img{
+        margin-top: -60px;
+        margin-left: 250px;
+        height: 450px;
+        width: 520px;
+    }
+
+    .vucSemBau p{
+        margin-top: -100px;
+        font-size: 18px;
+        width: 40em;
+        margin-left: 140px;
+    }
+
+    .bauM h1{
+        margin-top: 600px;
+    }
+
+    .bauM img{
+        margin-top: -60px;
+        margin-left: 300px;
+        height: 500px;
+        width: 400px;
+    }
+
+    .bauM p{
+        margin-top: -120px;
+        font-size: 18px;
+        width: 40em;
+        margin-left: 140px;
+    }
+
+    .bauG h1{
         margin-top: 700px;
     }
+
+    .bauG img{
+        margin-top: -60px;
+        margin-left: 300px;
+        height: 500px;
+        width: 450px;
+    }
+
+    .bauG p{
+        margin-top: -80px;
+        font-size: 18px;
+        width: 40em;
+        margin-left: 140px;
+    }
+
+    .bauGG h1{
+        margin-top: 770px;
+    }
+
+    .bauGG img{
+        margin-top: -70px;
+        margin-left: 300px;
+        height: 500px;
+        width: 500px;
+    }
+
+    .bauGG p{
+        margin-top: -140px;
+        font-size: 18px;
+        width: 40em;
+        margin-left: 140px;
+    }
+
+    .carreta h1{
+        margin-top: 700px;
+        margin-left: 400px;
+    }
+
+    .carreta img{
+        margin-top: -70px;
+        margin-left: 300px;
+        height: 500px;
+        width: 500px;
+    }
+
+    .carreta p{
+        margin-top: -90px;
+        font-size: 18px;
+        width: 40em;
+        margin-left: 140px;
+    }
+
+    .rodotrem h1{
+        margin-top: 700px;
+    }
+
+    .rodotrem img{
+        margin-top: -150px;
+        margin-left: 200px;
+        height: 550px;
+        width: 550px;
+    }
+
+    .rodotrem p{
+        margin-top: -120px;
+        font-size: 18px;
+        width: 40em;
+        margin-left: 140px;
+    }
+
+    #localizacao{
+        height: 1300px;
+    }
+
+    .localizacaoEmpresa img{
+        margin-left: 120px;
+    }
+
+    #contato{
+        height: 1200px;
+        margin-top: 20px;
+    }
+
 }
