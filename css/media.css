@@ -8,266 +8,42 @@ PRINCIPAIS BREAKPOINTS
 1201px e a cima: telas enormes (tv's)
 */
 
-/* 1025px - 1200px - Telas Enormes*/
-@media screen and (max-width: 1024px) {
-    html, body{
-        overflow-x: hidden;
-    }
-
-/*Locais que deram problema no site, que precisam ser corrigidos*/
-
-    /*Home*/
-    .homeContainer h1{
-        font-size: 70px;
-        padding: 20px;
-    }
-
-    .homeContainer h2{
-        font-size: 30px;
+/* 1201px e a cima: Telas enormes (tv's)*/
+@media screen and (max-width:1201px){
+    html,body{
+        overflow-x:hidden;
     }
 
     /*Sobre Nós*/
 
-    .sobreContainer h1{
-        margin-top: -60px;
+    #sobre{
+        height: 820px;
     }
 
     .sobreContainer img{
-        margin-left: 280px;
-        opacity: 20%;
+        margin-left: 30%;
+        margin-top: -60px;
+        opacity: 0.2;
     }
 
     .texto{
-        margin-top: -690px;
+        margin-top: -600px;
+        text-align: center;
         width: 65em;
+        margin-left: 80px;
     }
 
     .sobreContainer p{
-        font-size: 17.5px;
-        color: black;
-        font-weight: bold;
+        color: black; 
+        font-weight: bold; 
+        font-size: 16px; 
+        margin: 1px 20px 1px; 
     }
 
     /*Frotas*/
 
     #frota{
-        height: 9000px;
-    }
-
-    .frotaContainer h1{
-        font-size: 40px;
-        margin-top: 70px;
-    }
-
-    .frontaContainer h2{
-        font-size: 30px;
-    }
-
-    .moto img{
-        margin-top: -80px;
-        margin-left: 28%;
-    }
-
-    .entregaMoto p{
-        margin-top: -100px;
-        margin-left: 130px;
-        font-size: 18px;
-    }
-
-    .furgaoPequeno h1{
-        margin: auto;
-        margin-top: 390px;
-        margin-right: 5%;
-    }
-
-    .furgaoPequeno img{
-        margin-top: -99px;
-        margin-left: 25%;
-        height: 460px;
-        width: 490px;
-    }
-
-    .furgaoPequeno p{
-        margin-top: -100px;
-        font-size: 18px;
-        width: 40em;
-        margin-left: -2px;
-    }
-
-    .furgaoMedio h1{
-        margin-top: 550px;
-    }
-
-    .furgaoMedio img{
-        margin-top: -80px;
-        height: 460px;
-        width: 490px;
-        margin-left: 25%;
-    }
-    .furgaoMedio p{
-        margin-top: -100px;
-        font-size: 18px;
-        width: 40em;
-        margin-left: -2px;
-    }
-    
-    .furgaoGrande h1{
-        margin-top: 550px;
-    }
-
-    .furgaoGrande img{
-        margin-top: -80px;
-        height: 520px;
-        width: 490px;
-        margin-left: 25%;
-    }
-
-    .furgaoGrande p{
-        margin-top: -100px;
-        font-size: 18px;
-        width: 40em;
-        margin-left: -50px;
-    }
-
-    .vucComBau h1{
-        margin-top: 620px;
-    }
-
-    .vucComBau img{
-        margin-top: -100px;
-        height: 520px;
-        width: 490px;
-        margin-left: 25%;
-    }
-
-    .vucComBau p{
-        margin-top: -100px;
-        font-size: 18px;
-        width: 40em;
-        margin-left: 140px;
-    
-    }
-    
-    .vucSemBau h1{
-        margin-top: 650px;
-    }
-
-    .vucSemBau img{
-        margin-top: -60px;
-        margin-left: 250px;
-        height: 450px;
-        width: 520px;
-    }
-
-    .vucSemBau p{
-        margin-top: -100px;
-        font-size: 18px;
-        width: 40em;
-        margin-left: 140px;
-    }
-
-    .bauM h1{
-        margin-top: 600px;
-    }
-
-    .bauM img{
-        margin-top: -60px;
-        margin-left: 300px;
-        height: 500px;
-        width: 400px;
-    }
-
-    .bauM p{
-        margin-top: -120px;
-        font-size: 18px;
-        width: 40em;
-        margin-left: 140px;
-    }
-
-    .bauG h1{
-        margin-top: 700px;
-    }
-
-    .bauG img{
-        margin-top: -60px;
-        margin-left: 300px;
-        height: 500px;
-        width: 450px;
-    }
-
-    .bauG p{
-        margin-top: -80px;
-        font-size: 18px;
-        width: 40em;
-        margin-left: 140px;
-    }
-
-    .bauGG h1{
-        margin-top: 770px;
-    }
-
-    .bauGG img{
-        margin-top: -70px;
-        margin-left: 300px;
-        height: 500px;
-        width: 500px;
-    }
-
-    .bauGG p{
-        margin-top: -140px;
-        font-size: 18px;
-        width: 40em;
-        margin-left: 140px;
-    }
-
-    .carreta h1{
-        margin-top: 700px;
-        margin-left: 400px;
-    }
-
-    .carreta img{
-        margin-top: -70px;
-        margin-left: 300px;
-        height: 500px;
-        width: 500px;
-    }
-
-    .carreta p{
-        margin-top: -90px;
-        font-size: 18px;
-        width: 40em;
-        margin-left: 140px;
-    }
-
-    .rodotrem h1{
-        margin-top: 700px;
-    }
-
-    .rodotrem img{
-        margin-top: -150px;
-        margin-left: 200px;
-        height: 550px;
-        width: 550px;
-    }
-
-    .rodotrem p{
-        margin-top: -120px;
-        font-size: 18px;
-        width: 40em;
-        margin-left: 140px;
-    }
-
-    #localizacao{
-        height: 1300px;
-    }
-
-    .localizacaoEmpresa img{
-        margin-left: 120px;
-    }
-
-    #contato{
-        height: 1200px;
-        margin-top: 20px;
+        margin-top: -50px;
     }
 
 }

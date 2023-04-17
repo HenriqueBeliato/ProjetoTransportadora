@@ -59,6 +59,7 @@ span{ /*Alteração da cor de alguma palavra ou letra separadamente*/
     position: fixed; /*Posição dos elementos*/
     background-color: #333; /*Cor de fundo*/
     box-shadow: 3px 3px 5px darkred; /*Sobreamento*/
+    z-index: 7; /*Não deixar nenhum elemento se sobresair sobre ele*/
 }
 
 .menuItens{
