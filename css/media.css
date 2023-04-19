@@ -31,6 +31,7 @@ PRINCIPAIS BREAKPOINTS
         text-align: center;
         width: 65em;
         margin-left: 80px;
+        text-shadow: 1px 1px 1px black;
     }
 
     .sobreContainer p{
@@ -46,4 +47,102 @@ PRINCIPAIS BREAKPOINTS
         margin-top: -50px;
     }
 
+    .moto img{
+        margin-top: -70px;
+        height: 390px;
+        width: 350px;
+        padding: 100px 30px;
+    }
+
+    .entregaMoto{
+        margin-top: -320px;
+        margin-left: 320px;
+        width: 50em;
+    }
+
+    .furgaoPequeno h1{
+        margin-top: 300px;
+        margin-left: 395px;
+    }
+
+    .furgaoPequeno img{
+        margin-top: -100px;
+        height: 380px;
+        width: 350px;
+        padding: 100px 30px;
+    }
+
+    .entregaFurgaoPequeno{
+        width: 49em;
+        margin-right: 30px;
+    }
+
+    .furgaoMedio h1{
+        margin-top: 350px;
+    }
+
+    .furgaoMedio img{
+        margin-top: -100px;
+        height: 380px;
+        width: 350px;
+        padding: 100px 30px;
+    }
+
+    .entregaFurgaoMedio{
+        width: 49em;
+        margin-right: 32px;
+    }
+
+    .furgaoGrande h1{
+        margin-top: 350px;
+    }
+
+    .furgaoGrande img{
+        margin-top: -130px;
+        height: 400px;
+        width: 320px;
+        padding: 100px 30px;
+        margin-left: 25px;
+    }
+
+    .entregaFurgaoGrande{
+        width: 47em;
+        margin-right: 15px;
+    }
+
+    .vucComBau h1{
+        margin-top: 300px;
+    }
+
+    .vucComBau img{
+        margin-top: -100px;
+        padding: 100px 30px;
+        height: 430px;
+        width: 390px;
+    }
+
+    .entregaVucComBau{
+        width: 49em;
+        margin-left: -15px;
+    }
+
+    .vucSemBau h1{
+        margin-top: 800px;
+    }
+
+    .vucSemBau h1{
+        margin-top: 350px;
+    }
+
+    .vucSemBau img{
+        margin-top: -100px;
+        padding: 100px 30px;
+        height: 390px;
+        width: 380px;
+    }
+
+    .entregaVucSemBau{
+        width: 49em;
+        margin-left: -10px;
+    }
 }
