@@ -45,6 +45,7 @@ PRINCIPAIS BREAKPOINTS
 
     #frota{
         margin-top: -50px;
+        height: 5600px;
     }
 
     .moto img{
@@ -145,4 +146,104 @@ PRINCIPAIS BREAKPOINTS
         width: 49em;
         margin-left: -10px;
     }
+
+    .bauM h1{
+        margin-top: 340px;
+    }
+
+    .bauM img{
+        margin-top: -80px;
+        padding: 100px 30px;
+        height: 420px;
+        width: 320px;
+    }
+
+    .entregaBauM{
+        width: 52em;
+        margin-left: -20px;
+    }
+
+    .bauG h1{
+        margin-top: 380px;
+    }
+
+    .bauG img{
+        margin-top: -80px;
+        padding: 100px 30px;
+        height: 420px;
+        width: 320px;
+    }
+
+    .entregaBauG{
+        width: 52em;
+        margin-left: -15px;
+        margin-top: 10px;
+    }
+
+    .bauGG h1{
+        margin-top: 400px;
+    }
+
+    .bauGG img{
+        margin-top: -80px;
+        padding: 100px 30px;
+        height: 450px;
+        width: 390px;
+    }
+
+    .entregaBauGG{
+        width: 50em;
+        margin-left: -30px;
+    }
+
+    .carreta h1{
+        margin-top: 350px;
+    }
+
+    .carreta img{
+        margin-top: -80px;
+        padding: 100px 30px;
+        height: 390px;
+        width: 340px;
+    }
+
+    .entregaCarreta{
+        width: 52em;
+        margin-left: -30px;
+    }
+
+    .rodotrem h1{
+        margin-top: 350px;
+
+    }
+
+    .rodotrem img{
+        margin-top: -20px;
+        padding: 100px 30px;
+        height: 420px;
+        width: 340px;
+    }
+
+    .entregaRodotrem{
+        width: 52em;
+        margin-left: -15px;
+    }
+
+    /*Localização*/
+
+    #localizacao{
+        height: 1300px;
+    }
+
+    .localizacaoEmpresa img{
+        margin-left: 200px;
+    }
+
+    /*Contato*/
+
+    #contato{
+        height: 1000px;
+    }
+
+    
 }
